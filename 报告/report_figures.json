@@ -1,0 +1,7 @@
+{
+  "dataset_distribution": "E:\\Disk-G\\大二春季学期\\人工智能导论\\AI系统实践\\DriverFatigueDetection\\报告\\figures\\dataset_distribution.png",
+  "metric_comparison": "E:\\Disk-G\\大二春季学期\\人工智能导论\\AI系统实践\\DriverFatigueDetection\\报告\\figures\\metric_comparison.png",
+  "test_confusion_matrix": "E:\\Disk-G\\大二春季学期\\人工智能导论\\AI系统实践\\DriverFatigueDetection\\报告\\figures\\test_confusion_matrix.png",
+  "test_class_metrics": "E:\\Disk-G\\大二春季学期\\人工智能导论\\AI系统实践\\DriverFatigueDetection\\报告\\figures\\test_class_metrics.png",
+  "test_roc_curve": "E:\\Disk-G\\大二春季学期\\人工智能导论\\AI系统实践\\DriverFatigueDetection\\报告\\figures\\test_roc_curve.png"
+}

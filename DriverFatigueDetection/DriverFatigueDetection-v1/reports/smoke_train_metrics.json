@@ -1,0 +1,139 @@
+{
+  "model_type": "hist_gradient_boosting",
+  "schema_version": "v1_feature_schema_001",
+  "feature_names": [
+    "ear_left",
+    "ear_right",
+    "ear_mean",
+    "mar",
+    "ear_min",
+    "ear_max",
+    "ear_diff_abs",
+    "ear_ratio_left_right",
+    "left_eye_width_norm",
+    "right_eye_width_norm",
+    "left_eye_height_norm",
+    "right_eye_height_norm",
+    "mouth_width_norm",
+    "mouth_height_norm",
+    "mouth_open_area_proxy",
+    "mouth_to_face_width",
+    "mar_to_ear_mean",
+    "mar_minus_ear_mean",
+    "face_width",
+    "face_height",
+    "face_aspect_ratio",
+    "nose_x_norm",
+    "nose_y_norm",
+    "nose_to_chin_norm",
+    "forehead_to_chin_norm",
+    "left_right_face_width_ratio",
+    "eye_line_angle",
+    "mouth_line_angle",
+    "left_brow_eye_distance_norm",
+    "right_brow_eye_distance_norm",
+    "brow_eye_distance_mean",
+    "brow_eye_distance_diff_abs",
+    "brightness",
+    "contrast",
+    "blur_score"
+  ],
+  "classes": {
+    "0": "notdrowsy",
+    "1": "drowsy"
+  },
+  "train_samples_total": 2,
+  "train_samples_used": 2,
+  "train_skipped_no_face": [],
+  "val_samples_total": 2,
+  "val_samples_used": 2,
+  "val_skipped_no_face": [],
+  "train": {
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5,
+    "macro_f1": 0.3333333333333333,
+    "weighted_f1": 0.3333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "classification_report": {
+      "notdrowsy": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 1.0
+      },
+      "drowsy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "accuracy": 0.5,
+      "macro avg": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1-score": 0.3333333333333333,
+        "support": 2.0
+      },
+      "weighted avg": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1-score": 0.3333333333333333,
+        "support": 2.0
+      }
+    },
+    "roc_auc": 0.5
+  },
+  "val": {
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5,
+    "macro_f1": 0.3333333333333333,
+    "weighted_f1": 0.3333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "classification_report": {
+      "notdrowsy": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 1.0
+      },
+      "drowsy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "accuracy": 0.5,
+      "macro avg": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1-score": 0.3333333333333333,
+        "support": 2.0
+      },
+      "weighted avg": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1-score": 0.3333333333333333,
+        "support": 2.0
+      }
+    },
+    "roc_auc": 0.5
+  }
+}

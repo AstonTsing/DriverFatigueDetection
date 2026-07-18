@@ -1,0 +1,57 @@
+{
+  "best_epoch": 20,
+  "best_success_rate": 0.98,
+  "num_eval": 100,
+  "history": [
+    {
+      "epoch": 2,
+      "success_rate": 0.89,
+      "num_eval": 100
+    },
+    {
+      "epoch": 4,
+      "success_rate": 0.89,
+      "num_eval": 100
+    },
+    {
+      "epoch": 6,
+      "success_rate": 0.94,
+      "num_eval": 100
+    },
+    {
+      "epoch": 8,
+      "success_rate": 0.95,
+      "num_eval": 100
+    },
+    {
+      "epoch": 10,
+      "success_rate": 0.96,
+      "num_eval": 100
+    },
+    {
+      "epoch": 12,
+      "success_rate": 0.97,
+      "num_eval": 100
+    },
+    {
+      "epoch": 14,
+      "success_rate": 0.97,
+      "num_eval": 100
+    },
+    {
+      "epoch": 16,
+      "success_rate": 0.97,
+      "num_eval": 100
+    },
+    {
+      "epoch": 18,
+      "success_rate": 0.97,
+      "num_eval": 100
+    },
+    {
+      "epoch": 20,
+      "success_rate": 0.98,
+      "num_eval": 100
+    }
+  ]
+}

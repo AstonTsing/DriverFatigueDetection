@@ -1,0 +1,20 @@
+{
+  "method": "DriverFatigueDetection-v0 (SVM)",
+  "image_path": "E:\\Disk-G\\大二春季学期\\人工智能导论\\AI系统实践\\系统实践小程序\\DriverFatigueDetection\\dataset_split\\test\\drowsy\\sleepyCombination\\001_glasses_sleepyCombination_1005_drowsy.jpg",
+  "success": true,
+  "prediction": {
+    "label": "notdrowsy",
+    "is_drowsy": false,
+    "confidence": 0.664069059215291,
+    "probabilities": {
+      "notdrowsy": 0.664069059215291,
+      "drowsy": 0.335930940784709
+    }
+  },
+  "features": {
+    "ear_left": 0.30585076744839607,
+    "ear_right": 0.3004418734081534,
+    "ear_mean": 0.3031463204282747,
+    "mar": 0.10190826219008851
+  }
+}

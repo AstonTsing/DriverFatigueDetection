@@ -1,0 +1,17 @@
+# Windows 原生 GPU 训练环境（TensorFlow + DirectML，适用于 TF>=2.11 无法在 Windows 使用 CUDA 的情况）
+# 创建: conda env create -f environment-gpu.yml
+# 激活: conda activate drowsiness-gpu
+name: drowsiness-gpu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - tensorflow-cpu==2.10.0
+      - tensorflow-directml-plugin
+      - "numpy<2"
+      - scikit-learn
+      - matplotlib
+      - ipykernel

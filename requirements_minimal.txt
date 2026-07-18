@@ -1,0 +1,27 @@
+# 最小依赖包列表 (用于便携式部署体积优化)
+# 如果完整版本太大，可以使用此列表
+# GUI框架
+PyQt5>=5.15.0
+
+# 如果只使用传统ML方法 (V0/V1)
+opencv-python>=4.8.0
+mediapipe==0.10.21
+scikit-learn>=1.2.0
+numpy>=1.23.0,<2.0
+joblib>=1.2.0
+
+# 如果需要YOLO
+# torch>=2.0.0
+# torchvision>=0.15.0
+# ultralytics>=8.0.0
+
+# 如果需要TensorFlow模型
+# tensorflow>=2.10.0
+
+# 图像处理
+pillow>=10.0.0
+
+# 注意:
+# 1. 至少需要安装一种模型对应的依赖
+# 2. 推荐全部安装以支持所有5种方法
+# 3. 使用此文件: python_env\python.exe -m pip install -r requirements_minimal.txt

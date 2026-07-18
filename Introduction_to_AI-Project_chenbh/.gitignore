@@ -1,0 +1,12 @@
+# Dataset (not pushed)
+dataset_split/
+
+# Local conda environment
+.conda/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model file (> GitHub 100MB limit)
+model_mobilenetv2.h5
